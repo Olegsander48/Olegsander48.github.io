@@ -31,6 +31,7 @@ $(function(){
 	$(".carousel-main").owlCarousel({
 		loop:true,
 		nav:true,
+		autoplay:true,
 		responsive:{
 				0:{
 						items:1,
