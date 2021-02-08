@@ -31,7 +31,7 @@ $(function(){
 	$(".carousel-main").owlCarousel({
 		loop:true,
 		nav:true,
-		autoplay:true,
+		autoplay:5000,
     autoPlaySpeed:5000,
     autoPlayTimeout:5000,
 		responsive:{
