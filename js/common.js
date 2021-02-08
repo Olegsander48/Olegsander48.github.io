@@ -32,6 +32,7 @@ $(function(){
 		loop:true,
 		nav:true,
 		autoplay:true,
+		autoplayTimeout:2,
 		responsive:{
 				0:{
 						items:1,
