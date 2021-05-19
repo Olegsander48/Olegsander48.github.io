@@ -19,7 +19,7 @@
 	
 	<!-- Load Main CSS Compilled without JS -->
 	<noscript>
-		<link rel="stylesheet" href="_main.min.css">
+		<link rel="stylesheet" href="styles/_main.min.css">
 	</noscript>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +42,7 @@
 				<div class="menu-line">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<a href="index.html" class="logo"><img src="img/логотип(white).png" alt="BikeInfo"></a>
+						<a href="index.html" class="logo"><img src="img/логотип.png" alt="BikeInfo"></a>
 					</div>
 					<div class="col-lg-9 col-md-6 col-sm-6 col-xs-11">
 						<a href="#" class="toggle-mnu hidden-lg"></a>
@@ -633,13 +633,13 @@
 				<div class="col-sm-12">
 					<h1>Ашанбайки - угроза для человека</h1>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-5">
 					<div class="img-ashana">
 						<img class="ashan-img responsive-img" src="img/ashan.png" alt="Ashan">
 					</div>
 				</div>
-				<div class="col-sm-6">
-						<p class="ashan-paragraph">Отсутствие контроля качества угрожает здоровью или даже жизни человека. Вы не предугадаете в какой момент руль может остатьься у вас в руках. Низкокачественное и низкоуровневое оборудование обеспечивает некорректную работу систем переключения передач, тормоза используются только для замедления перед столкновением или падением, а движущиеся элементы получают выроботку через сезон эксплуатации...</p>
+				<div class="col-sm-7">
+						<p class="ashan-paragraph">Отсутствие контроля качества угрожает здоровью или даже жизни человека. Вы не предугадаете в какой момент руль может остаться у вас в руках. Низкокачественное и низкоуровневое оборудование обеспечивает некорректную работу систем переключения передач, тормоза используются только для замедления перед столкновением или падением, а движущиеся элементы получают выроботку через сезон эксплуатации...</p>
 						<a href="ashan.html" class="button button-accent">Узнать больше</a>
 					
 				</div>
@@ -731,7 +731,9 @@
 			</div>
 		</div>
 	</section>
-
+	
+	
+	
 	<div class="hidden"></div>
 
 	<!--[if lt IE 9]>
@@ -747,14 +749,14 @@
 			var ms=document.createElement("link");ms.rel="stylesheet";
 			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 		}
-		loadCSS("_header.min.css"); //Header Styles (compress & paste to header after release)
-		loadCSS("_main.min.css");   //User Styles + Media Queries
+		loadCSS("styles/_header.min.css"); //Header Styles (compress & paste to header after release)
+		loadCSS("styles/_main.min.css");   //User Styles + Media Queries
 	</script>
 
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[
 		{"src" : "js/libs.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
+		{"src" : "js/common.js", "async" : false},
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
 
