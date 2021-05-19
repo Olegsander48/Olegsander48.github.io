@@ -1,5 +1,11 @@
 $(function(){
 
+	$("body").append('<div class="top"><i class="fa fa-angle-double-up">');
+
+	$("body").on("click",".top", function(){
+		$("html, body").animate({scrollTop: 0}, "slow");
+	});
+
 	$(".carouslel-technologies").owlCarousel({
 		loop:true,
 		nav:true,
@@ -30,10 +36,10 @@ $(function(){
 
 	$(".carousel-main").owlCarousel({
 		loop:true,
+		autoPlay:true,
 		nav:true,
-		autoplay:5000,
-    autoPlaySpeed:5000,
-    autoPlayTimeout:5000,
+		autoplay:true,
+		//autoPlay:1000,
 		responsive:{
 				0:{
 						items:1,
@@ -139,6 +145,14 @@ $(function(){
 
 	};
 
+	$(window).scroll(function(){
+		if($(this).scrollTop()>$(this).height()){
+			$(".top").addClass("active");
+		} else{
+			$(".top").removeClass("active");
+		}
+	});
+	
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
 });

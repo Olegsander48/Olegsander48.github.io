@@ -19,7 +19,7 @@
 	
 	<!-- Load Main CSS Compilled without JS -->
 	<noscript>
-		<link rel="stylesheet" href="styles/main.min.css">
+		<link rel="stylesheet" href="styles/_main.min.css">
 	</noscript>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -183,7 +183,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/cannondale.svg" alt="cannondale">
 									</div>
 									<div class="carousel-text">
@@ -198,7 +198,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/specialized.svg" alt="Specialized">
 									</div>
 									<div class="carousel-text">
@@ -214,7 +214,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/merida1.svg" alt="Merida">
 									</div>
 									<div class="carousel-text">
@@ -230,7 +230,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/trek2.svg" alt="Trek">
 									</div>
 									<div class="carousel-text">
@@ -244,7 +244,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/scott.svg" alt="Scott">
 									</div>
 									<div class="carousel-text">
@@ -258,7 +258,7 @@
 							<div class="carousel-item">
 								<div class="carousel-wrap">
 									<div class="kart-img-wrap">
-										<img class="responsive-img" src="img/rombiki.png" alt="back-sloy">
+										<img class="responsive-img" src="img/logo/rombiki.png" alt="back-sloy">
 										<img class="img-svg responsive-img" src="img/Logo/kona2.svg" alt="Kona">
 									</div>
 									<div class="carousel-text">
@@ -633,13 +633,13 @@
 				<div class="col-sm-12">
 					<h1>Ашанбайки - угроза для человека</h1>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-5">
 					<div class="img-ashana">
 						<img class="ashan-img responsive-img" src="img/ashan.png" alt="Ashan">
 					</div>
 				</div>
-				<div class="col-sm-6">
-						<p class="ashan-paragraph">Отсутствие контроля качества угрожает здоровью или даже жизни человека. Вы не предугадаете в какой момент руль может остатьься у вас в руках. Низкокачественное и низкоуровневое оборудование обеспечивает некорректную работу систем переключения передач, тормоза используются только для замедления перед столкновением или падением, а движущиеся элементы получают выроботку через сезон эксплуатации...</p>
+				<div class="col-sm-7">
+						<p class="ashan-paragraph">Отсутствие контроля качества угрожает здоровью или даже жизни человека. Вы не предугадаете в какой момент руль может остаться у вас в руках. Низкокачественное и низкоуровневое оборудование обеспечивает некорректную работу систем переключения передач, тормоза используются только для замедления перед столкновением или падением, а движущиеся элементы получают выроботку через сезон эксплуатации...</p>
 						<a href="ashan.html" class="button button-accent">Узнать больше</a>
 					
 				</div>
@@ -731,7 +731,9 @@
 			</div>
 		</div>
 	</section>
-
+	
+	
+	
 	<div class="hidden"></div>
 
 	<!--[if lt IE 9]>
@@ -747,14 +749,14 @@
 			var ms=document.createElement("link");ms.rel="stylesheet";
 			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 		}
-		loadCSS("styles/header.min.css"); //Header Styles (compress & paste to header after release)
-		loadCSS("styles/main.min.css");   //User Styles + Media Queries
+		loadCSS("styles/_header.min.css"); //Header Styles (compress & paste to header after release)
+		loadCSS("styles/_main.min.css");   //User Styles + Media Queries
 	</script>
 
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[
 		{"src" : "js/libs.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
+		{"src" : "js/common.js", "async" : false},
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
 
